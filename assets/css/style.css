@@ -14,17 +14,47 @@ body {
  /* Headings and the Logo */
 
  h1, h2 {
-    font-family: "Oswald", sand-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color:#252525;
  }
 
  #logo {
-    float: left;
-    font-size: 280%;
+   float: left;
+   font-size: 280%;
+   letter-spacing: 4px;
+}
+ #menu {
+   font-size: 110%;
+   letter-spacing: 4px;
  }
 
- #menu {
-    float:right;
+ # menu, #logo {
+   line-height: 75px;
+ }
+
+ #menu li {
+    
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    
+ }
+
+ #menu a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ #menu :hover {
+border-bottom: solid #2a2a2a;
+ }
+
+ #menu :last {
+   text-decoration: underline;
+ }
+
+ .active {
+   border-bottom: solid #2a2a2a;
  }
